@@ -1,0 +1,178 @@
+.section3{
+    width: 100%;
+    padding:1rem 2rem;
+    background: #fff;
+  color: #111;
+  font-family: sans-serif;
+   
+}
+
+.third-container
+{
+    padding: 40px 40px;
+}
+
+.section-three-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-three-header h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.section-three-header p {
+  font-size: 16px;
+  color: #444;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.services-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+.service-card h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.service-card ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.service-card ul li {
+  margin-bottom: 6px;
+}
+
+/* CTA card */
+.cta-card {
+  background: #000;
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-card button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-card button:hover {
+  background: #ddd;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.card-red {
+  background-color: #ffe5e5;
+}
+
+.card-orange {
+  background-color: #fff0e0;
+}
+
+.card-blue {
+  background-color: #e0f0ff;
+}
+
+.card-purple {
+  background-color: #f0e8ff;
+}
+
+.card-teal {
+  background-color: #e0fff8;
+}
+
+.card-green {
+  background-color: #eaffea;
+}
+
+.card-pink {
+  background-color: #ffeaf6;
+}
+
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+  .section-three-header h2 {
+    font-size: 22px;
+  }
+
+  .section-three-header p {
+    font-size: 15px;
+  }
+
+  .service-card h4 {
+    font-size: 16px;
+  }
+
+  .service-card ul {
+    font-size: 13px;
+  }
+
+  .cta-card h3 {
+    font-size: 18px;
+  }
+
+  .cta-card button {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-three {
+    padding: 40px 15px;
+  }
+
+  .cta-card {
+    padding: 20px 15px;
+  }
+}

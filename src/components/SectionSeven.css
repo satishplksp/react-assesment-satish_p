@@ -1,0 +1,46 @@
+.section7 {
+  width: 100%;
+  padding:1ren 2rem;
+    background-color: #2c1c5f;
+  text-align: center;
+  color: white;
+    padding:2rem 2rem;
+}
+.seventh-container
+{
+  padding: 20px 40px;
+}
+.section7 h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  background: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.icon img {
+  max-width: 24px;
+  height: auto;
+}

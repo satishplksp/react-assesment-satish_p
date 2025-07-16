@@ -1,0 +1,43 @@
+.dubai-map-section {
+  width: 100%;
+    padding:1rem 2rem;
+    background: #fff;
+  color: #111;
+   text-align: center;
+}
+
+.Eighth-container
+{
+    padding: 40px 40px 0px 40px;
+}
+
+
+.dubai-map-section .content {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.dubai-map-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.dubai-map-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.map-wrapper h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}

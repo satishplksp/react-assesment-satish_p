@@ -1,0 +1,177 @@
+/* SectionFour.css */
+.section4{
+    width: 100%;
+    /* padding:2rem 2rem; */
+    padding: 2rem 1rem 2rem 10rem;
+  background-color: #f8f8f8;
+
+    
+   
+}
+
+/* .fourth-container
+{
+    padding: 60px 40px;
+} */
+.hex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  gap: 40px;
+  justify-items: center;
+  padding: 60px 20px;
+     
+}
+.hex-rectangle {
+  width: 600px;
+  max-width: 95vw;
+  margin: auto;
+  position: relative;
+}
+
+svg.main-shape {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+
+.content-seo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 140px;
+    /* padding: 19px 43px 4px 78px; */
+
+  box-sizing: border-box;
+}
+
+.content-seo p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.cta-button {
+  background: #7A5EF8;
+  color: #fff;
+  padding: 12px 24px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #6348E2;
+}
+
+.mini-hex {
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 180px;
+  height: 180px;
+}
+
+.mini-hex svg {
+  width: 100%;
+  height: auto;
+}
+
+.hex-inner {
+  position: absolute;
+  top: 54%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hex-inner img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 8px;
+}
+
+.hex-inner p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+@media (max-width: 550px) {
+
+
+  .section4{
+    width: 100%;
+    padding:2rem 2rem;
+  background-color: #f8f8f8;
+
+    
+   
+}
+
+  .hex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  padding: 60px 20px;
+}
+
+.cta-button
+{
+  display: none;
+}
+
+.hex-rectangle {
+    width: 577px;
+    max-width: 73vw;
+    margin: auto;
+    position: relative;
+    /* left: 60px; */
+}
+
+.content-seo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 40px 140px; */
+    padding: 19px 43px 4px 78px;
+
+  box-sizing: border-box;
+}
+  .content-seo p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+
+  .mini-hex {
+    top: 75px;
+    left: -50px;
+    width: 125px;
+  }
+
+  .hex-inner {
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
