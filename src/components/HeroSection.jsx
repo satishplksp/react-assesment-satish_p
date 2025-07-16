@@ -25,7 +25,7 @@ export const Herosection=()=>
         <button>Get a Free SEO Audit</button>
       </div>
       <div className="hero-image">
-        <img src="images/headersection.png" alt="Dubai SEO" />
+        <img src="/images/headersection.png" alt="Dubai SEO" />
       </div>
     </div>
     </section>
